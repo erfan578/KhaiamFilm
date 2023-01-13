@@ -1,0 +1,32 @@
+@media (max-width: 700px) {
+  body > .slider .customNextBtn,
+  body > .slider .customPrevBtn {
+    margin-bottom: 10vw;
+  }
+}
+
+@media (max-width: 500px) {
+  body > .slider .customNextBtn > img,
+  body > .slider .customPrevBtn > img {
+    width: 5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  body > .slider .owl-dots {
+    margin-top: -10px !important;
+  }
+}
+
+body > .slider .owl-dots .owl-dot span {
+  margin: 5px !important;
+}
+
+@media (max-width: 500px) {
+  body > .slider .owl-dots .owl-dot span {
+    width: 3vw !important;
+    height: 3vw !important;
+    margin: 1vw !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */

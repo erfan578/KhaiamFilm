@@ -1,0 +1,35 @@
+body {
+    >.slider {
+
+        .customNextBtn,
+        .customPrevBtn {
+            @media (max-width: 700px) {
+                margin-bottom: 10vw;
+            }
+
+            >img {
+                @media (max-width: 500px) {
+                    width: 5vw;
+                }
+            }
+        }
+
+        .owl-dots {
+            @media (max-width: 500px) {
+                margin-top: -10px !important;
+            }
+
+            .owl-dot {
+                span {
+                    margin: 5px !important;
+
+                    @media (max-width: 500px) {
+                        width: 3vw !important;
+                        height: 3vw !important;
+                        margin: 1vw !important;
+                    }
+                }
+            }
+        }
+    }
+}
